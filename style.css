@@ -1,6 +1,6 @@
 body {
     font-family: 'Inter', sans-serif;
-    background: #f8fafc; 
+    background: lightblue; 
     padding: 60px 20px;
     display: flex;
     justify-content: center;
@@ -9,17 +9,25 @@ body {
 @media (max-width: 768px) {
     .resume-container {
         flex-direction: column;
-        width: 95%; 
-        margin: 10px auto;
+        width: 95%;
+        margin: 20px auto;
+        border-radius: 16px; 
     }
 
-    .left-section, .right-section {
-        width: 100%; 
+    .left-section {
+        width: 100%;
+        text-align: center; 
+        padding: 30px 20px;
+    }
+
+    .right-section {
+        width: 100%;
         padding: 20px;
     }
 
-    h1 {
-        font-size: 1.5rem; 
+    .profile-picture {
+        margin: 0 auto 20px auto; 
+        display: block;
     }
 }
 

@@ -1,10 +1,10 @@
-var toggleButton = document.getElementById('toggle-Skills');
-var skills = document.getElementById('Skills');
-toggleButton.addEventListener('Click', function () {
-    if (skills.style.display === 'none') {
-        skills.style.display = 'block';
-    }
-    else {
-        skills.style.display = 'none';
+const toggleButton = document.getElementById('toggle-Skills');
+const skillsList = document.getElementById('skills-list');
+
+toggleButton.addEventListener('click', () => {
+    if (skillsList.style.display === 'none') {
+        skillsList.style.display = 'block';
+    } else {
+        skillsList.style.display = 'none';
     }
 });

@@ -1,5 +1,7 @@
 # Milestone-1: Static Resume
 
+![Project UI/UX Design](UIUX-image.png)
+
 A clean, responsive, and interactive static resume project built as part of the web development milestones.
 
 ---

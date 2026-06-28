@@ -7,27 +7,35 @@ body {
 }
 
 @media (max-width: 768px) {
+    body {
+        padding: 20px 10px; 
+    }
+
     .resume-container {
-        flex-direction: column;
-        width: 95%;
-        margin: 20px auto;
-        border-radius: 16px; 
+        flex-direction: column; 
+        width: 100%;
+        border-radius: 16px;
     }
 
     .left-section {
         width: 100%;
+        padding: 40px 20px;
         text-align: center; 
-        padding: 30px 20px;
-    }
-
-    .right-section {
-        width: 100%;
-        padding: 20px;
     }
 
     .profile-picture {
         margin: 0 auto 20px auto; 
         display: block;
+    }
+
+    .right-section {
+        width: 100%;
+        padding: 30px 20px;
+        text-align: center; 
+    }
+
+    button {
+        width: 100%; 
     }
 }
 

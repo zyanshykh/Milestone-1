@@ -1,10 +1,11 @@
-const toggleButton = document.getElementById('toggle-Skills') as HTMLButtonElement
-const skills = document.getElementById('skills') as HTMLElement
+// script.ts
+const toggleButton = document.getElementById('toggle-Skills') as HTMLButtonElement;
+const skillsList = document.getElementById('skills-list') as HTMLElement;
 
-toggleButton.addEventListener('click' , ()=> {
-    if(skills.style.display === 'none'){
-        skills.style.display = 'block'
+toggleButton.addEventListener('click', () => {
+    if (skillsList.style.display === 'none') {
+        skillsList.style.display = 'block';
     } else {
-        skills.style.display = 'none'
+        skillsList.style.display = 'none';
     }
 });

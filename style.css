@@ -6,6 +6,23 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        width: 95%; 
+        margin: 10px auto;
+    }
+
+    .left-section, .right-section {
+        width: 100%; 
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+    }
+}
+
 .resume-container {
     display: flex;
     max-width: 850px;

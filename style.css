@@ -7,35 +7,27 @@ body {
 }
 
 @media (max-width: 768px) {
-    body {
-        padding: 20px 10px; 
-    }
-
     .resume-container {
-        flex-direction: column; 
+        flex-direction: column;
+        width: 95%;
+        margin: 20px auto;
+        border-radius: 24px;
+        background: #0f172a; 
+    }
+
+    .left-section, .right-section {
         width: 100%;
-        border-radius: 16px;
+        background: #0f172a; 
+        color: #f1f5f9;      
+        text-align: center;
+        padding: 20px;
     }
 
-    .left-section {
-        width: 100%;
-        padding: 40px 20px;
-        text-align: center; 
-    }
-
-    .profile-picture {
-        margin: 0 auto 20px auto; 
-        display: block;
-    }
-
+    
     .right-section {
-        width: 100%;
-        padding: 30px 20px;
-        text-align: center; 
-    }
-
-    button {
-        width: 100%; 
+        background: #ffffff; 
+        color: #0f172a;
+        border-radius: 0 0 24px 24px; 
     }
 }
 

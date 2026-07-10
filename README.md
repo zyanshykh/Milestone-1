@@ -21,10 +21,10 @@ This project is a modern digital resume designed to showcase core web developmen
 
 ## 🛠️ Project Structure
 Here is how the project files are organized:
-* `web.html` - The main structure of the resume.
+* `index.html` - The main structure of the resume.
 * `style.css` - Custom styling and layout rules.
 * `script.ts` / `script.js` - Logic for dynamic interactions.
-* `profile.jpeg` - Profile picture asset.
+* `image.png` - Profile picture asset.
 
 ---
 

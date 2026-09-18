@@ -1,44 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M. Zayyan Sheikh - Resume</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>M. Zayyan Sheikh - Resume</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="projects.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
 
-    <div class="resume-container">
-        <div class="left-section">
-            <img src="image.png" alt="Profile" class="profile-picture">
-            <section id="objective">
-                <h3>Objective</h3>
-                <p style="font-size: 0.95rem; line-height: 1.6;">Software Engineering student focused on building Agentic AI systems.</p>
-            </section>
-        </div>
-        
-        <div class="right-section">
-            <h1>M. Zayyan Sheikh</h1>
-            <section id="personal-Information">
-                <h3>Contact</h3>
-                <p><b>Phone:</b> 0346-3435119</p>
-                <p><b>Email:</b> zyanshykh46@gmail.com</p>
-            </section>
+<div class="resume-container">
 
-            <section id="skills-section">
-                <h3>Technical Skills</h3>
-                <ul id="skills-list" style="list-style: none; padding: 0;">
-                    <li>✅ Javascript / Typescript</li>
-                    <li>✅ HTML / CSS</li>
-                    <li>✅ AI Agent Development</li>
-                </ul>
-            </section>
-            
-            <button id="toggle-Skills">Toggle Skills</button>
-        </div>
-    </div>
+<div class="left-section">
 
-    <script src="script.js"></script>
+<img src="image.png" alt="Profile" class="profile-picture">
+
+<section id="objective">
+<h3>Objective</h3>
+<p style="font-size: 0.95rem; line-height: 1.6;">Software Engineering student focused on building Agentic AI systems.</p>
+</section>
+
+</div>
+
+<div class="right-section">
+
+<h1>M. Zayyan Sheikh</h1>
+
+<section id="personal-Information">
+<h3>Contact</h3>
+<p><b>Phone:</b> 0346-3435119</p>
+<p><b>Email:</b> zyanshykh46@gmail.com</p>
+</section>
+
+<section id="skills-section">
+<h3>Technical Skills</h3>
+<ul id="skills-list" style="list-style: none; padding: 0;">
+<li>✅ Javascript / Typescript</li>
+<li>✅ HTML / CSS</li>
+<li>✅ AI Agent Development</li>
+</ul>
+</section>
+
+<button id="toggle-Skills">Toggle Skills</button>
+
+<!-- NEW: Live Projects (GitHub se auto-load hota hai) -->
+<section id="projects-section" aria-labelledby="projects-heading">
+<h3 id="projects-heading">Live Projects</h3>
+<div id="projects-list" aria-live="polite"></div>
+</section>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+<script src="projects.js"></script>
 </body>
 </html>

@@ -1,0 +1,109 @@
+/* projects.css - Live Projects section */
+
+#projects-section {
+  margin-top: 2rem;
+}
+
+.projects {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project {
+  padding: 1rem 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.project:first-child {
+  border-top: 0;
+  padding-top: 0.25rem;
+}
+
+.project-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+}
+
+.project-name {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.project-links a,
+.projects-status a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.project-links a:hover {
+  text-decoration-thickness: 2px;
+}
+
+.project-links a:focus-visible,
+.projects-status a:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Live demo ke saath chhota hara dot */
+.live-link {
+  font-weight: 600;
+}
+
+.live-link::before {
+  content: "";
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.4rem;
+  border-radius: 50%;
+  background: #2da44e;
+}
+
+.project-desc {
+  margin: 0.35rem 0 0.6rem;
+  font-size: 0.93rem;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-tag {
+  padding: 0.1rem 0.6rem;
+  font-size: 0.78rem;
+  border: 1px solid rgba(128, 128, 128, 0.45);
+  border-radius: 999px;
+}
+
+.projects-status {
+  margin: 0;
+  font-size: 0.93rem;
+  opacity: 0.8;
+}
+
+@media print {
+  .project-links {
+    display: none;
+  }
+}
